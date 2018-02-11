@@ -1,0 +1,380 @@
+/******* Globale Einstellung ******/
+
+html,body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+    font-size: 100%;
+     font-family: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    #outline: 1px solid black;
+}
+
+.flex {
+    display: flex;
+}
+.platz {
+    justify-content: space-between;
+}
+
+
+
+/******* text ******/
+
+
+
+
+
+.intro h2 {
+ 
+    font-weight:500;
+     font-size: 3vw;
+    line-height: 1.4285714286em;
+    text-align: center;
+    padding: 6vw 4vw 4vw 4vw;
+   
+    
+}
+h1{
+    
+    font-weight:600;
+    color: dimgrey;
+    text-align: left;
+    font-size: 3vw;
+    line-height: 1.4285714286em;
+    margin-bottom: 2vw;
+    margin-top: 0;
+    
+}
+
+h7{
+    
+    font-weight:800;
+    color: darkslategrey;
+    text-align: left;
+    font-size: 4vw;
+    line-height: 1.4285714286em;
+    margin-bottom: 2vw;
+    margin-top: 0;
+    
+}
+h3{
+    
+    font-weight: 300;
+    color: dimgrey;
+    font-size: 2.5vw;
+    line-height: 1.4285714286em;
+    margin-bottom: 2vw;
+    
+}
+
+sup{
+    font-weight: 100;
+    font-size: 2vw;
+    line-height: 1.4285714286em;
+    margin-left: 1vw;
+}
+
+h4{
+    font-weight: 300;
+    color: dimgrey;
+    text-align: left;
+    font-size: 3vw;
+    line-height: 1.4285714286em;
+    margin-bottom: 2vw;
+    margin-left: 2vw;
+    margin-right: 4vw;
+    
+}
+
+
+
+
+.header{
+    background-image: url(../img/header/header-image_home.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    
+}
+
+.headernest{
+    background-image: url(../img/nesthocker/mainimg.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    
+}
+
+.headerfremd{
+    background-image: url(../img/fremd.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    
+}
+
+.headertrend{
+    background-image: url(../img/trend.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    
+}
+
+.farbe2{
+    background-color: #F9F9F3;
+    border: none;
+ 
+    
+}
+
+
+
+.farbe3{
+    background-color: #F9F9F3;
+    background-image: url(../img/H%C3%96RENSEHEN.png);
+      background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: left; 
+}
+
+.farbe4{
+    background-color: #F9F9F3;
+    background-image:url(../img/nesthocker/menunest.png);
+      background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: left; 
+}
+
+.farbe5{
+    background-color: #F9F9F3;
+    background-image:url(../img/affaire.png);
+      background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: left; 
+}
+
+.farbe6{
+    background-color: #F9F9F3;
+    background-image:url(../img/trendbar.png);
+      background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: left; 
+}
+
+.highlights{
+    background-color: #F9F9F3;
+    background-image:url(../img/nesthocker/tabhighlights.png);
+      background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position:left;
+    
+}
+
+.spring{
+     background-image: url(../img/home_spring.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    
+}
+
+.hwb{
+     background-image: url(../img/nesthocker/hwb.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    
+}
+
+
+
+.paar{
+     background-image: url(../img/paar.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    
+}
+
+
+.tier{
+     background-image: url(../img/tierparkgr.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    
+}
+
+.weimar{
+     background-image: url(../img/nesthocker/weimargr.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    
+}
+
+.fremd{
+  background-image: url(../img/slav.png);
+     background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+}
+
+.trend{
+  background-image: url(../img/trendmap.png);
+     background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    
+}
+
+.events{
+     background-image: url(../img/nesthocker/events.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position:left  top;
+    
+    
+}
+
+.news{
+    padding: 5vw;
+    font-family: 'Open Sans', sans-serif;
+    color: dimgrey;
+    font-weight: 600;
+    font-size: 1vw;
+    text-align: left;
+    margin:2vw 2vw 2vw 2vw;
+   
+} 
+.news img {
+    align-self: flex-start;
+}
+
+.art{
+    padding: 1vw 3vw 0vw 5vw;
+}
+
+.art button{
+     background-color: transparent;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+   
+}
+
+
+.button1{
+    background-color: #E7413F;
+    color: #F9F9F3;
+    box-shadow: 2px 2px lightgrey;
+}
+
+.button2{
+    background-color: #F9F9F3;
+    color: darkslategrey;
+    box-shadow: 2px 2px lightgrey;
+    
+
+}
+
+.button4{
+    background-color: #EEDE3E;
+    color: darkslategrey;
+    box-shadow: 2px 2px lightgrey;
+    
+
+}
+
+.button5{
+    background-color: #6B9CE4;
+    color: darkslategrey;
+    box-shadow: 2px 2px lightgrey;
+    
+
+}
+
+.button3 img{
+    position: relative;
+   z-index:1;
+    margin-top: -5vw;
+    margin-left: 30vw;
+   
+}
+
+.footer{
+    background-image: url(../img/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: left;
+    bottom: 0;
+}
+
+
+/* ich bin das Raster **/
+.h2 {height: 2vh;}
+.h5 {height: 5vh;}
+.h10 {height: 10vh;}
+.h15 {height: 15vh;}
+
+.h20 {height: 20vh;}
+.h30 {height: 30vh;}
+.h40 {height: 40vh;}
+.h50 {height: 50vh;}
+.h60 {height: 60vh;}
+.h70 {height: 70vh;}
+
+.h80 {height: 80vh;}
+.h90 {height: 90vh;}
+.h95 {height: 95vh;}
+
+.h100 {height: 100vh;}
+.w100 {width: 100vw;}
+.w50 {width: 50vw;}
+.w40 {width: 40vw;}
+.w45 {width: 45vw;}
+.w20 {width: 20vw;}
+.w25 {width: 25vw;}
+.w28 {width: 28vw;}
+.w10 {width: 10vw;}
+.w3 {width: 3vw;}
+
+
+
+.icon {
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position: 98% center;
+}
+
+
+
+
+
+
+
+
+
+/******* End of Globale Einstellung ******/
+
+/**** stlye für die Home ****/
+
+
+.home {
+  
+}
+
