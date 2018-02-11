@@ -40,7 +40,7 @@
         
         <div class="flex platz news">
       
-              <img class="w40" src="../img/NACHRICHTEN/5.png">
+              <img class="w40" src="img/NACHRICHTEN/5.png">
             <div class="w40"><h1>Jeden 2. Dienstag Pärchentherapie im Rathaus.. Erzähle Gera was dich stört oder was du toll findest.</h1><br><br><br><h3>vor 60 Minuten</h3>
                  
                 <button class="pageBtn button3" data-page="paar">
