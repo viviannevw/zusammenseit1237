@@ -166,6 +166,14 @@ h4{
     background-position: left; 
 }
 
+.farbe7{
+    background-color: #F9F9F3;
+    background-image:url(../img/trendbar2.png);
+      background-repeat: no-repeat;
+    background-size: 80% auto;
+    background-position: left; 
+}
+
 .highlights{
     background-color: #F9F9F3;
     background-image:url(../img/nesthocker/tabhighlights.png);
@@ -227,6 +235,14 @@ h4{
 
 .trend{
   background-image: url(../img/trendmap.png);
+     background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center center;
+    
+}
+
+.feed{
+  background-image: url(../img/feed.png);
      background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center center;
